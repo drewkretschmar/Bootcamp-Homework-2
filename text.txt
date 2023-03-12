@@ -1,0 +1,84 @@
+<section class="app" id="uno">
+                
+                <div class="workbox" id="one">
+
+                    <h3>Work 1</h3>
+
+                    <p>summary</p>
+
+                </div>
+
+            </section>
+
+            <section class="app" id="dos">
+                
+                <div class="workbox" id="two">
+
+                    <h3>Work 2</h3>
+
+                    <p>summary</p>
+
+                </div>
+
+            </section>
+
+            <section class="app" id="tres">
+                
+                <div class="workbox" id="three">
+
+                    <h3>Work 3</h3>
+
+                    <p>summary</p>
+
+                </div>
+
+            </section>
+
+            <section class="app" id="cuatro">
+                
+                <div class="workbox" id="four">
+
+                    <h3>Work 4</h3>
+
+                    <p>summary</p>
+
+                </div>
+
+            </section>
+
+            <section class="app" id="cinco">
+                
+                <div class="workbox" id="five">
+
+                    <h3>Work 5</h3>
+
+                    <p>summary</p>
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+
+
+
+.app:nth-child(3){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(4){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(5){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(6){
+    width:calc(50% - 10px);
+}

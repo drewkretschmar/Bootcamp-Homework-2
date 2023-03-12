@@ -1,4 +1,5 @@
 * {
+    flex-shrink: 0;
     font-family: helvetica, sans-serif, arial;
 }
 
@@ -80,82 +81,104 @@ main {
 }
 
 .section {
-    background-color: orange;
     padding-left: 5px;
     padding-right: 5px;
     display: flex;
 }
 
 #about {
-    flex-direction: column;
+    flex-direction: row;
+    height: 500px;
+    padding: 10px;
+    color: rgb(43, 31, 46);
+}
+
+#aboutme {
+    height: 500px;
+    border-right: solid;
+    border-color: aqua;
+    padding-right: 15px;
+    font-size: 30px;
+    width: 100px;
+    text-align: right;
+}
+
+#desc {
+    margin-left: 5px;
 }
 
 #work {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    height: 100%;
+    padding: 10px;
+    color: rgb(43, 31, 46);
 }
 
-.app {
-    background-color: green;
-    border: dashed 1px white;
+#work h2 {
+    height: 800px;
+    border-right: solid;
+    border-color: aqua;
+    padding-right: 15px;
+    font-size: 30px;
+    width: 100px;
+    text-align: right;
+}
+
+#pages {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 5px;
-    width: 50%;
-    box-sizing: border-box;
-}
-
-.app:nth-child(3){
-    width:calc(50% - 10px);
-}
-
-.app:nth-child(4){
-    width:calc(50% - 10px);
-}
-
-.app:nth-child(5){
-    width:calc(50% - 10px);
-}
-
-.app:nth-child(6){
-    width:calc(50% - 10px);
-}
-
-#uno {
-    width: 100%;
-}
-
-#dos {}
-
-#tres {}
-
-#cuatro {}
-
-#cinco {}
-
-.workbox {}
-
-#one {}
-
-#two {}
-
-#three {}
-
-#four {}
-
-#five {}
-
-#contact {
-    display: inline-flex;
+    width: 95%; 
+    justify-content: space-evenly;
     align-items: center;
 }
 
+.app {
+    display: flex;
+    border: solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 150px;
+    width: 45%;
+}
+
+#uno {
+    width: 90%;
+    height: 300px;
+}
+
+#contact {
+    flex-direction: row;
+    height: 100px;
+    padding: 10px;
+    color: rgb(43, 31, 46);
+}
+
+#contact h2 {
+    height: 100px;
+    border-right: solid;
+    border-color: aqua;
+    padding-right: 15px;
+    font-size: 30px;
+    width: 100px;
+    text-align: right;
+}
+
 #contact p {
+    padding-top: 40px;
     padding-left: 100px;
 }
 
 footer {
-    border: solid;
-    margin: 5px;
+    background-color:rgb(43, 31, 46);
+    padding: 5px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+footer a {
+    text-decoration-line: none;
+    padding-right: 10px;
 }
