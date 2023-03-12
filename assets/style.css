@@ -1,0 +1,147 @@
+* {
+    font-family: helvetica, sans-serif, arial;
+}
+
+header {
+    margin: 0;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#title {
+    background-color: black;
+    color:aqua;
+    font-size: 50px;
+    position: absolute;
+    top: 75px;
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#nav {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.link {
+    border: solid;
+    padding: 5px;
+}
+
+#break {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    height: 150px;
+    background-size:contain;
+}
+
+#subtitle {
+    font-size: 30px;
+    position: absolute;
+    background: black;
+    color:aqua;
+    margin-right: 50px;
+    right: 25px;
+    top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+main {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    background-color: orange;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+}
+
+#about {
+    flex-direction: column;
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.app {
+    background-color: green;
+    border: dashed 1px white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.app:nth-child(3){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(4){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(5){
+    width:calc(50% - 10px);
+}
+
+.app:nth-child(6){
+    width:calc(50% - 10px);
+}
+
+#uno {
+    width: 98%;
+}
+
+#dos {}
+
+#tres {}
+
+#cuatro {}
+
+#cinco {}
+
+.workbox {}
+
+#one {}
+
+#two {}
+
+#three {}
+
+#four {}
+
+#five {}
+
+#contact {
+    display: inline-flex;
+    align-items: center;
+}
+
+#contact p {
+    padding-left: 100px;
+}
+
+footer {
+    border: solid;
+    margin: 5px;
+}
