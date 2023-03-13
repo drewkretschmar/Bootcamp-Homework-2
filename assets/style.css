@@ -16,14 +16,22 @@ header {
 #title {
     background-color: black;
     color:aqua;
-    font-size: 50px;
+    font-size: 75px;
     position: absolute;
-    top: 75px;
+    top: 55px;
     padding-left: 100px;
-    padding-right: 30px;
+    padding-right: 130px;
     padding-top: 5px;
     padding-bottom: 6px;
     border-radius: 0px 20px 20px 0px;
+    align-items: center;
+}
+
+#cat {
+    height: 70px;
+    position: absolute;
+    top: 63px;
+    left: 665px;
 }
 
 #nav {
@@ -142,15 +150,72 @@ main {
     box-sizing: border-box;
     height: 150px;
     width: 45%;
+    text-decoration-line: none;
+}
+
+.workbox {
+    background-color: black;
+    color: aqua;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+#one {
+    margin-top: 245px;
 }
 
 #uno {
     width: 90%;
     height: 300px;
+    background-image: url(./images/lego.background.jpg);
+    background-size: cover;
+    background-position: 50px 50px;
+}
+
+#uno:hover {
+    opacity: 0.8;
+}
+
+#dos {
+    background-image: url(./images/cherry.blossoms.jpg);
+    background-size: cover;
+}
+
+#dos:hover {
+    opacity: 0.8;
+}
+
+#tres {
+    background-image: url(./images/green.blue.jpg);
+    background-size: 100%;
+}
+
+#tres:hover {
+    opacity: 0.8;
+}
+
+#cuatro {
+    background-image: url(./images/mountains.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+}
+
+#cuatro:hover {
+    opacity: 0.8;
+}
+
+#cinco {
+    background-image: url(./images/stars.jpg);
+    background-size: 100%;
+}
+
+#cinco:hover {
+    opacity: 0.8;
 }
 
 #contact {
-    flex-direction: row;
     height: 100px;
     padding: 10px;
     color: rgb(43, 31, 46);
@@ -166,9 +231,11 @@ main {
     text-align: right;
 }
 
-#contact p {
+.contact {
     padding-top: 40px;
     padding-left: 100px;
+    text-align: right;
+    width: 40%;
 }
 
 footer {
