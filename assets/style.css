@@ -160,6 +160,7 @@ main {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 5px;
+    
 }
 
 #one {
@@ -248,4 +249,14 @@ footer {
 footer a {
     text-decoration-line: none;
     padding-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .media1 {flex-direction: column;
+    width: 75%;}
+}
+
+@media only screen and (max-width: 600px) {
+    .media2 {flex-direction: column;
+    width: 50%;}
 }
